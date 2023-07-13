@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/core": "^6.0.16",
+    "@mantine/dates": "^6.0.16",
+    "@mantine/dropzone": "^6.0.16",
+    "@mantine/ds": "^6.0.16",
+    "@mantine/form": "^6.0.16",
+    "@mantine/hooks": "^6.0.16",
+    "@mantine/modals": "^6.0.16",
+    "@mantine/notifications": "^6.0.16",
+    "@supabase/storage-js": "^2.5.1",
+    "@supabase/supabase-js": "^2.26.0",
+    "@tabler/icons-react": "^2.25.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,8 +22,10 @@
     "@types/node": "^16.18.38",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "dayjs": "^1.11.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -39,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
   }
 }
